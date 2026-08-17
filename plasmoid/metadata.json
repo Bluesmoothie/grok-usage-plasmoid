@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Yves Gille"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Affiche le quota SuperGrok /usage dans le panneau",
+        "EnabledByDefault": true,
+        "Icon": "view-statistics",
+        "Id": "org.ygille.grokusage",
+        "License": "MIT",
+        "Name": "Quota Grok",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "0.1.0",
+        "Website": "https://github.com/ygille/grok-usage-plugin"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

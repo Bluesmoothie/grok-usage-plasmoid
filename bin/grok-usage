@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+import os
+import runpy
+
+script = os.path.normpath(os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "..",
+    "plasmoid",
+    "contents",
+    "code",
+    "grok-usage.py",
+))
+runpy.run_path(script, run_name="__main__")
