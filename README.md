@@ -30,3 +30,7 @@ bin/grok-usage
 - Il faut une session `grok login` (pas seulement une clé API).
 - Le script renouvelle le token OIDC si besoin, sous le verrou `~/.grok/auth.json.lock`.
 - L’endpoint n’est pas une API publique figée : si xAI le change, le widget affichera une erreur plutôt que des chiffres faux.
+
+## Licence
+
+[MIT](LICENSE) © 2026 Yves Gille
