@@ -17,7 +17,7 @@
             "Plasma/Applet"
         ],
         "Version": "0.1.0",
-        "Website": "https://github.com/ygille/grok-usage-plugin"
+        "Website": "https://github.com/Bluesmoothie/grok-usage-plasmoid"
     },
     "X-Plasma-API": "declarativeappletscript",
     "X-Plasma-MainScript": "ui/main.qml"
