@@ -282,7 +282,10 @@ def format_reset(iso_value):
         "juil.", "août", "sept.", "oct.", "nov.", "déc.",
     )
     days = ("lun.", "mar.", "mer.", "jeu.", "ven.", "sam.", "dim.")
-    human = "%s %s %s" % (days[local.weekday()], local.day, months[local.month - 1])
+    human = "%s %s %s à %02dh%02d" % (
+        days[local.weekday()], local.day, months[local.month - 1],
+        local.hour, local.minute,
+    )
     return dt.isoformat(), human
 
 
